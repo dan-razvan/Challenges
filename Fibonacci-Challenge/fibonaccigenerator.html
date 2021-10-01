@@ -1,0 +1,21 @@
+<!-- Write a function with an argument that when called returns an array with the fibonacci sequence with the length 
+equal to the argument passed into the function -->
+
+<script>
+
+function fibonacciGenerator(n){
+  const sequence =[]
+  for (let i= 0; i < n; i++){
+    if(sequence.length<2){
+      sequence.push(i)
+    
+    }else{
+      sequence.push(sequence[i-2] + sequence[i-1])
+    }
+  }
+  return sequence;
+}
+
+fibonacciGenerator(1)
+
+</script>
