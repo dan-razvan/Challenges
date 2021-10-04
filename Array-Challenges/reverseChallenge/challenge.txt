@@ -1,0 +1,21 @@
+
+Write a function that takes an array as an argument and returns the reversed
+version of it.
+
+Ex:
+
+names = ["Dan", "Jim", "Ann", "Pam", "Tim", "John", "Jack"];
+
+function reverseArray(array){
+//your code
+}
+
+
+
+// calling the function
+let reversedNames = reverseArray(names)
+console.log(reversedNames)
+
+//the output should be: ['Jack', 'John', 'Tim', 'Pam', 'Ann', 'Jim', 'Dan']
+
+
