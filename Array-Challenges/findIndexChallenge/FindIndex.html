@@ -1,0 +1,23 @@
+<!-- create a function that will take two parameters: an array and a name 
+the function should look for the name in the array and return the index position of that name
+if it can't find the name it should return a message-->
+
+
+<script>
+let names = ["Dan", "Jim", "Ann", "Pam", "Tim", "John", "Jack"]    
+
+let name = prompt("Enter the name: ")
+function findIndex(array, name){
+  let index;
+  for( let i = 0; i <= array.length; i++){
+    if(array[i] === name){
+      index = i
+      return index
+    }
+  }
+  return name + " is not in the list!"
+}
+
+findIndex(names, name)
+
+</script>
