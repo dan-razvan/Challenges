@@ -1,0 +1,13 @@
+//create a function that get's an array as an input and returns the reversed array
+//note that you shouldn't use the reverse() method
+
+<script>
+function reverseArray(array) {
+    reversed =[]
+    for(let i = 1; i <= array.length; i++) {
+        reversed[i-1] = array[array.length-i] //assigning array[6] value to position 0 (i-1) of the reversed array.
+    }
+    return reversed
+}
+
+</script>
