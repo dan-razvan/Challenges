@@ -1,0 +1,9 @@
+Find Index Challenge
+
+-write a function that takes two inputs/arguments: an array and a name;
+
+-the function should iterate the array in search for the name;
+
+-if it finds the name the function should return the index position of that name in the array;
+
+-if the name is not on the list, it should return a message that informs the user the name wasn't found.
